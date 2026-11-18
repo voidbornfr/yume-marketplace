@@ -1,0 +1,21 @@
+{
+  "id": "western-cnoto",
+  "name": "Cno.to",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "Ultra-fast direct stream extractor for classic and contemporary Western movies.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "movies",
+  "website": "https://cno.to",
+  "capabilities": ["SourceProvider", "PlaybackProvider"],
+  "permissions": {
+    "network": ["cno.to"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/cnoto.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/cnoto.ts"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "western-m4uhd",
+  "name": "M4uHD",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "M4uHD catalog streaming and source resolving with instant seek and multi-server mirroring.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "movies",
+  "capabilities": ["SourceProvider", "PlaybackProvider"],
+  "permissions": {
+    "network": ["m4uhd.tv"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/m4uhd.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/m4uhd.ts"
+}

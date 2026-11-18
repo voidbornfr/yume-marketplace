@@ -1,0 +1,22 @@
+{
+  "id": "western-shuttletv",
+  "name": "ShuttleTV",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "Western movies and TV series streaming provider based on ShuttleTV / shuttletv.pk with multi-quality embeds.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "movies",
+  "icon": "https://shuttletv.pk/favicon.ico",
+  "website": "https://shuttletv.pk",
+  "capabilities": ["SourceProvider", "PlaybackProvider"],
+  "permissions": {
+    "network": ["shuttletv.pk", "vidsrc.to", "embed.su", "vidsrc.me"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/shuttletv.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/shuttletv.ts"
+}

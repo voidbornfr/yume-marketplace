@@ -1,0 +1,20 @@
+{
+  "id": "western-pressplayx",
+  "name": "PressPlayX",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "PressPlayX provider offering ad-free direct links and auto-resolution fallback for Netflix/HBO/Prime releases.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "tv",
+  "capabilities": ["SourceProvider", "PlaybackProvider"],
+  "permissions": {
+    "network": ["pressplayx.com"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/pressplayx.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/pressplayx.ts"
+}

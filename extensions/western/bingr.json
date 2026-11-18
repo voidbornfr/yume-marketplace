@@ -1,0 +1,21 @@
+{
+  "id": "western-bingr",
+  "name": "Bingr",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "Bingr streaming aggregator with multi-host fallback for Hollywood movies and multi-season boxsets.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "tv",
+  "website": "https://bingr.stream",
+  "capabilities": ["SourceProvider", "PlaybackProvider"],
+  "permissions": {
+    "network": ["bingr.stream", "superembed.stream"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/bingr.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/bingr.ts"
+}

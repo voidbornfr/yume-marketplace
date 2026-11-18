@@ -1,0 +1,20 @@
+{
+  "id": "western-vidbox",
+  "name": "Vidbox",
+  "version": "1.0.0",
+  "author": "Western Community",
+  "description": "Vidbox high-definition streams with multi-language subtitle tracks and 1080p stream support.",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "category": "movies",
+  "capabilities": ["SourceProvider", "PlaybackProvider", "SubtitleProvider"],
+  "permissions": {
+    "network": ["vidbox.to", "opensubtitles.org"],
+    "filesystem": "none",
+    "storage": true,
+    "serverSide": true
+  },
+  "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/vidbox.json",
+  "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/vidbox.ts"
+}

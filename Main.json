@@ -1,0 +1,674 @@
+[
+  {
+    "id": "western-shuttletv",
+    "name": "ShuttleTV",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "Western movies and TV series streaming provider based on ShuttleTV / shuttletv.pk with multi-quality embeds.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "movies",
+    "icon": "https://shuttletv.pk/favicon.ico",
+    "website": "https://shuttletv.pk",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "shuttletv.pk",
+        "vidsrc.to",
+        "embed.su"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/shuttletv.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/shuttletv.ts"
+  },
+  {
+    "id": "western-hydrahd",
+    "name": "HydraHD",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "HydraHD streaming source provider for HD Western cinema, Hollywood premieres and trending shows.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "movies",
+    "website": "https://hydrahd.com",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "hydrahd.com",
+        "vidsrc.me"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/hydrahd.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/hydrahd.ts"
+  },
+  {
+    "id": "western-bingr",
+    "name": "Bingr",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "Bingr streaming aggregator with multi-host fallback for Hollywood movies and multi-season boxsets.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "tv",
+    "website": "https://bingr.stream",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "bingr.stream",
+        "superembed.stream"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/bingr.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/bingr.ts"
+  },
+  {
+    "id": "western-cnoto",
+    "name": "Cno.to",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "Ultra-fast direct stream extractor for classic and contemporary Western movies.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "movies",
+    "website": "https://cno.to",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "cno.to"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/cnoto.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/cnoto.ts"
+  },
+  {
+    "id": "western-pressplayx",
+    "name": "PressPlayX",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "PressPlayX provider offering ad-free direct links and auto-resolution fallback for Netflix/HBO/Prime releases.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "tv",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "pressplayx.com"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/pressplayx.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/pressplayx.ts"
+  },
+  {
+    "id": "western-vidbox",
+    "name": "Vidbox",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "Vidbox high-definition streams with multi-language subtitle tracks and 1080p stream support.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "movies",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider",
+      "SubtitleProvider"
+    ],
+    "permissions": {
+      "network": [
+        "vidbox.to",
+        "opensubtitles.org"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/vidbox.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/vidbox.ts"
+  },
+  {
+    "id": "western-m4uhd",
+    "name": "M4uHD",
+    "version": "1.0.0",
+    "author": "Western Community",
+    "description": "M4uHD catalog streaming and source resolving with instant seek and multi-server mirroring.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "lang": "en",
+    "category": "movies",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "permissions": {
+      "network": [
+        "m4uhd.tv"
+      ],
+      "filesystem": "none",
+      "storage": true,
+      "serverSide": true
+    },
+    "manifestURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/m4uhd.json",
+    "payloadURI": "https://raw.githubusercontent.com/voidbornfr/yume-marketplace/main/marketplace/extensions/western/m4uhd.ts"
+  },
+  {
+    "id": "reanime",
+    "name": "Reanime",
+    "version": "1.1.3",
+    "author": "Sharky",
+    "description": "Plays Re:ANIME (reanime.to) through the Reanime restream proxy.",
+    "type": "onlinestream-provider",
+    "language": "javascript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://reanime.sharky.systems/manifest.json"
+  },
+  {
+    "id": "kaa",
+    "name": "KickAssAnime",
+    "version": "1.0.8",
+    "author": "Thekingcrusher",
+    "description": "KickAssAnime online stream provider for sub and dub anime with multi-server resolution.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/kaa/manifest.json"
+  },
+  {
+    "id": "animeav1",
+    "name": "AnimeAV1",
+    "version": "1.3.0",
+    "author": "pal-droid",
+    "description": "Online streaming provider with high quality AV1 and HEVC encodes.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/pal-droid/seanime-providers/main/src/anime/AnimeAV1/manifest.json"
+  },
+  {
+    "id": "aq-anikoto",
+    "name": "Anikoto",
+    "version": "1.4.15",
+    "author": "aquaryuo",
+    "description": "Seamless Anikoto compatibility layer providing ultra-fast multi-resolution streams.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/aquaryuo/seanime/main/extensions/anikoto/manifest.json"
+  },
+  {
+    "id": "animeheaven",
+    "name": "AnimeHeaven",
+    "version": "1.1.6",
+    "author": "Pal-droid",
+    "description": "AnimeHeaven online streaming provider for subbed anime in high definition.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animeheaven/manifest.json"
+  },
+  {
+    "id": "anipm",
+    "name": "AniPM",
+    "version": "1.0.5",
+    "author": "Thekingcrusher",
+    "description": "AniPM stream provider with direct player stream links.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Thekingcrusher/online-stream-providers/refs/heads/main/anipm/manifest.json"
+  },
+  {
+    "id": "animeya",
+    "name": "Animeya",
+    "version": "1.0.2",
+    "author": "DefnoJae",
+    "description": "Animeya online streams with episode auto-tracking.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/Animeya/main/Manifest.json"
+  },
+  {
+    "id": "mkissa",
+    "name": "MKissa",
+    "version": "1.0.4",
+    "author": "DefnoJae",
+    "description": "MKissa online streams provider.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/MKissa/main/Manifest.json"
+  },
+  {
+    "id": "anime-sama-anime",
+    "name": "Anime Sama",
+    "version": "1.2.0",
+    "author": "rafou376",
+    "description": "Anime Sama streaming provider for VOSTFR and multi-sub releases.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/rafou376/seanime-pl/main/src/onlinestream/anime-sama-anime/manifest.json"
+  },
+  {
+    "id": "animenexus",
+    "name": "AnimeNexus",
+    "version": "1.0.0",
+    "author": "DefnoJae",
+    "description": "AnimeNexus streaming source provider.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/DefnoJae/AnimeNexus/main/Manifest.json"
+  },
+  {
+    "id": "megaplay",
+    "name": "MegaPlay",
+    "version": "1.0.1",
+    "author": "Seanime-contributions",
+    "description": "MegaPlay high-bitrate streaming provider with direct HLS m3u8 playback.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megaplay/manifest.json"
+  },
+  {
+    "id": "megavid",
+    "name": "MegaVid",
+    "version": "1.0.0",
+    "author": "Seanime-contributions",
+    "description": "MegaVid server extractor for fast buffering anime streams.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/megavid/manifest.json"
+  },
+  {
+    "id": "animotvslash",
+    "name": "AnimoTV Slash",
+    "version": "1.0.2",
+    "author": "Pal-droid",
+    "description": "AnimoTV streaming provider.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/anime/animotvslash/manifest.json"
+  },
+  {
+    "id": "zokoanime",
+    "name": "ZokoAnime",
+    "version": "1.0.0",
+    "author": "Seanime-contributions",
+    "description": "ZokoAnime stream resolver.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/zokoanime/manifest.json"
+  },
+  {
+    "id": "animetvplus",
+    "name": "AnimeTV Plus",
+    "version": "1.0.0",
+    "author": "Seanime-contributions",
+    "description": "AnimeTV Plus multi-source stream aggregator.",
+    "type": "onlinestream-provider",
+    "language": "typescript",
+    "category": "anime",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Seanime-contributions/Seanime-Providers/refs/heads/main/src/anime/animetvplus/manifest.json"
+  },
+  {
+    "id": "mangadex",
+    "name": "MangaDex",
+    "version": "1.2.0",
+    "author": "faddix",
+    "description": "Official MangaDex integration for high-res manga scans and translation chapters.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider",
+      "CatalogProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-mangadex/main/mangadex.json"
+  },
+  {
+    "id": "mangafire",
+    "name": "MangaFire",
+    "version": "1.1.0",
+    "author": "Pal-droid",
+    "description": "MangaFire chapter reader with multi-language and high-quality double-page spreads.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangafire/manifest.json"
+  },
+  {
+    "id": "atsumaru",
+    "name": "Atsumaru",
+    "version": "1.0.0",
+    "author": "Pal-droid",
+    "description": "Atsumaru manga and manhwa provider.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/atsumaru/manifest.json"
+  },
+  {
+    "id": "xcomic",
+    "name": "XComic",
+    "version": "1.0.0",
+    "author": "Pal-droid",
+    "description": "XComic manga, comic and webtoon reader.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "comics",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/xcomic/manifest.json"
+  },
+  {
+    "id": "mangafreak",
+    "name": "MangaFreak",
+    "version": "1.0.3",
+    "author": "Pal-droid",
+    "description": "MangaFreak raw and translated chapters.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/refs/heads/main/src/manga/mangafreak/manifest.json"
+  },
+  {
+    "id": "mangaball",
+    "name": "MangaBall",
+    "version": "1.0.0",
+    "author": "Pal-droid",
+    "description": "MangaBall online reader provider.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangaball/manifest.json"
+  },
+  {
+    "id": "mangadot",
+    "name": "MangaDot",
+    "version": "1.0.0",
+    "author": "Pal-droid",
+    "description": "MangaDot provider for manhwa and webcomics.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/manga/mangadot/manifest.json"
+  },
+  {
+    "id": "webtoons",
+    "name": "Webtoons",
+    "version": "1.0.0",
+    "author": "ASleepyDrink",
+    "description": "Official Webtoons scraper for manhwa, original creator webtoons, and weekly updates.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "comics",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/ASleepyDrink/Seanime-Stuff/refs/heads/main/extensions/webtoons.json"
+  },
+  {
+    "id": "comicvine",
+    "name": "ComicVine",
+    "version": "1.0.0",
+    "author": "aor-rex",
+    "description": "ComicVine Western comics and graphic novel metadata and chapter indexer.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "comics",
+    "capabilities": [
+      "MetadataProvider",
+      "CatalogProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/ComicVine/manifest.json"
+  },
+  {
+    "id": "mangabaka",
+    "name": "MangaBaka",
+    "version": "1.0.0",
+    "author": "dot-fx",
+    "description": "MangaBaka search and reader provider.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "manga",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/MangaBaka/manifest.json"
+  },
+  {
+    "id": "torrentio",
+    "name": "Torrentio",
+    "version": "1.4.0",
+    "author": "aor-rex",
+    "description": "Torrentio provider for direct torrent stream scraping and debrid support for Movies, TV Shows, and Anime.",
+    "type": "torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "PlaybackProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/aor-rex/seanime-extensions/master/src/Torrentio/manifest.json"
+  },
+  {
+    "id": "animetosho-new",
+    "name": "AnimeTosho New",
+    "version": "1.2.0",
+    "author": "faddix",
+    "description": "AnimeTosho torrent and direct download indexer with DDL and magnet links.",
+    "type": "anime-torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/faddix/seanime-animetosho-new/main/animetosho-new.json"
+  },
+  {
+    "id": "nekobt",
+    "name": "NekoBT",
+    "version": "1.0.0",
+    "author": "bruuhim",
+    "description": "NekoBT anime torrent provider with peer health tracking.",
+    "type": "anime-torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/bruuhim/bruuhim-seanime-extensions/main/src/nekobt/nekobt.json"
+  },
+  {
+    "id": "the-pirate-bay",
+    "name": "The Pirate Bay",
+    "version": "1.1.0",
+    "author": "dot-fx",
+    "description": "The Pirate Bay search and stream magnet extractor for Hollywood movies, series, and software.",
+    "type": "torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/dot-fx/seanime-extensions/master/src/TPB/manifest.json"
+  },
+  {
+    "id": "subsplease",
+    "name": "SubsPlease",
+    "version": "1.0.2",
+    "author": "Bas1874",
+    "description": "SubsPlease direct releases with 1080p, 720p, and SD batch magnets.",
+    "type": "anime-torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/SubsPleaseSeanime/refs/heads/main/src/manifest.json"
+  },
+  {
+    "id": "acgrip",
+    "name": "ACG.RIP",
+    "version": "1.0.0",
+    "author": "Bas1874",
+    "description": "ACG.RIP East Asian animation and media torrent indexer.",
+    "type": "anime-torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/ACG.RIP-Torrent-Provider-Seanime/refs/heads/main/src/manifest.json"
+  },
+  {
+    "id": "darkmahou",
+    "name": "Dark Mahou",
+    "version": "1.0.0",
+    "author": "Jhoorodre",
+    "description": "Dark Mahou torrent indexer provider.",
+    "type": "torrent-provider",
+    "language": "typescript",
+    "category": "playback",
+    "capabilities": [
+      "SourceProvider",
+      "DownloadProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Jhoorodre/seanime-provider/refs/heads/master/src/darkmahou/darkmahou-provider.json"
+  },
+  {
+    "id": "light-novels-provider",
+    "name": "Light Novels Hub",
+    "version": "1.0.0",
+    "author": "Pal-droid",
+    "description": "Light novel chapter reader and epub indexer with formatting for long-form reading.",
+    "type": "manga-provider",
+    "language": "typescript",
+    "category": "books",
+    "capabilities": [
+      "ReaderProvider"
+    ],
+    "manifestURI": "https://raw.githubusercontent.com/Pal-droid/Seanime-Providers/main/src/plugins/Light%20novel/manifest.json"
+  }
+]
